@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .conteudo {
@@ -17,12 +17,12 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    margin: 5px 0;
+    /* margin: 50px 0; */
     flex-wrap: wrap;
 }
 
 .carros label > img {
-    width: 13vw;
+    width: 100%;
 }
 
 .checkbox td {
@@ -53,6 +53,10 @@ input[type="checkbox"] {
     margin-left: 15px;
 }
 
+.iframe__video {
+    margin-bottom: 30px;
+}
+
 button {
     display: flex;
     width: 10vw;
@@ -63,14 +67,26 @@ button {
     padding: 10px;
     border-radius: 5px;
     color: white;
-    background-color: #1351d8;
+    background-color: #4c7fec;
     font-size: 0.9vw;
     border: none;
+}
+
+button:hover {
+    color: white;
+    border: 2px solid black;
+    background-color: #1351d8;
+    padding: 12px;
+    transition: 0.5s;
 }
 
 @media only screen and (min-width: 400px) and (max-width: 800px) {
 
 
+    .apresentacao {
+        overflow: none;
+    }
+    
     .nome__carro {
         font-size: 0.8rem;
     }
