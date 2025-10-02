@@ -6,7 +6,7 @@
     flex-direction: column;
     width: 100vw;
     min-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 section {
@@ -34,6 +34,7 @@ section {
     justify-content: center;
     width: 100%;
     margin: 1% 1%;
+    flex-wrap: wrap;
 }
 
 .conteudo__formulario {
