@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
 /* CABEÇALHO */
@@ -33,7 +32,7 @@
     font-size: 1.3rem;
     text-decoration: none;
     font-family: "Raleway";
-    font-weight: lighter;
+    font-weight: bold;
     color: #1351d8;
 }
 
