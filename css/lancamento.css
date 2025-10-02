@@ -51,12 +51,12 @@ input[type="checkbox"] {
 }
 
 .iframe__video {
-    margin-bottom: 30px;
+    margin-bottom: 2vw;
 }
 
 button {
     display: flex;
-    width: 10vw;
+    width: 180px;
     font-weight: bold;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ button {
     border-radius: 5px;
     color: white;
     background-color: #4c7fec;
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     border: none;
 }
 
@@ -80,15 +80,15 @@ button:hover {
 @media only screen and (min-width: 400px) and (max-width: 800px) {
 
     .nome__carro {
-        font-size: 0.8rem;
+        font-size: 100%;
     }
 
     .carros label > img {
-        width: 30vw;
+        width: 300px;
     }
 
     button {
-        width: 20vw;
-        font-size: 1.8vw;
+        padding: 15px;
+        font-size: 15px;
     }
 }
