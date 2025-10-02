@@ -33,6 +33,12 @@
     flex: 1;
 }
 
+.conteudo__img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
 .conteudo__img img {
     max-width: 70vw;
     height: auto;
