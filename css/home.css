@@ -1,0 +1,48 @@
+/* CONFIG GERAIS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* APRESENTAÇÃO  */
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* CONTEUDO */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    flex: 1;
+}
+
+.conteudo__img img {
+    max-width: 70vw;
+    height: auto;
+    border-radius: 3px;
+}
+
+.conteudo__texto {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Raleway";
+    margin: 2rem 0;
+}

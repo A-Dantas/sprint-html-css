@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.carros {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+
+.carros label > img {
+    width: 13vw;
+}
+
+.checkbox td {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    line-height: 10px;
+}
+
+input[type="checkbox"] {
+    width: 60px;
+    height: 20px;
+    /* margin: 10px; */
+}
+
+.nome__carro {
+    color: #1b357e;
+}
+
+.carro__valor {
+    font-size: 0.8rem;
+}
+
+.img__info img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+button {
+    display: flex;
+    width: 10vw;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1351d8;
+    font-size: 0.9vw;
+    border: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+
+
+    .nome__carro {
+        font-size: 0.8rem;
+    }
+
+    .carros label > img {
+        width: 30vw;
+    }
+
+    button {
+        width: 20vw;
+        font-size: 1.8vw;
+    }
+}

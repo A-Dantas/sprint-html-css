@@ -1,0 +1,86 @@
+/* RODAPÉ */
+
+.rodape {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    justify-content: space-between;
+    max-height: auto;
+    background-color: #1b357e;
+    color: white;
+    align-items: center;
+    padding: 5px 20px;
+    flex-wrap: wrap;
+}
+
+.rodape__redes {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__redes__titulo {
+    font-family: "Raleway";
+    font-size: 1rem;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.rodape__redes__lista {
+    display: flex;
+}
+
+.rodape__redes__lista a > img {
+    display: flex;
+    width: 2.1vw;
+    justify-content: center;
+}
+
+.rodape__logo {
+    display: flex;
+    width: 184px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rodape__logo a > img {
+    width: 5vw;
+}
+
+.rodape__copyright {
+    margin: 10px;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+    
+    .rodape {
+        justify-content: center;
+        flex-direction: column;
+        line-height: 5vh;
+        font-size: 1rem;
+    }
+
+    .rodape__redes__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape__redes__lista a > img {
+        width: 1.5rem;
+    }
+    
+    .rodape__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape__copyright {
+        text-align: center;
+    }
+
+    .rodape__logo a > img {
+        width: 15vw;
+    }
+}
