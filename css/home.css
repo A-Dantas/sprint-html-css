@@ -19,7 +19,6 @@
     align-items: center;
     width: 100vw;
     min-height: 100vh;
-    /* overflow: hidden; */
 }
 
 /* CONTEUDO */
@@ -40,8 +39,13 @@
     align-items: center;
 }
 
+.conteudo__img a {
+    display: flex;
+    justify-content: center;
+}
+
 .conteudo__img img {
-    max-width: 70vw;
+    max-width: 90%;
     height: auto;
     border-radius: 3px;
 }
