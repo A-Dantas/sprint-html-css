@@ -6,7 +6,7 @@
     flex-direction: column;
     width: 100vw;
     min-height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 section {
@@ -27,7 +27,6 @@ section {
 
 .conteudo__img img {
     width: 100%;
-    
 }
 
 .container {
